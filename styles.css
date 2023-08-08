@@ -1,0 +1,25 @@
+main {
+    display:flex;
+    justify-content:center;
+    
+  }
+  .car{
+    display:flex;
+    flex-direction:row;
+    height:300px;
+    width:400px;
+    background-color:red;
+  }
+  .car-item{
+    flex-grow:1;
+    border-radius:10px;
+    margin:2px;
+    min-width:50px;
+    height:200px;
+    background-color:yellow;
+    transition: all .5s ease;
+  }
+  .selected{
+    flex-grow:5;
+  }
+  
